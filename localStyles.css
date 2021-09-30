@@ -5,7 +5,6 @@
 .nav-local ul {
   align-content: center;
   margin-left: 39%;
-
 }
 
 .header-title {
@@ -21,7 +20,8 @@
   margin-bottom: 24px;
   font-weight: 800;
 }
- .text-p {
+
+.text-p {
   font-family: 'Inter', sans-serif;
   font-size: 20px;
 }
@@ -48,8 +48,8 @@
 }
 
 .aboutMe {
-    flex-direction: column;
-    align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .aboutMe h2 {
@@ -70,9 +70,9 @@
 }
 
 .card-group {
-    text-align: center;
+  text-align: center;
 }
 
 .modalImg {
-    width: 450px;
+  width: 450px;
 }

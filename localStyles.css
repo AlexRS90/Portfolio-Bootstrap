@@ -1,0 +1,78 @@
+.local-header {
+  align-content: center;
+}
+
+.nav-local ul {
+  align-content: center;
+  margin-left: 39%;
+}
+
+.header-title {
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.title {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  color: teal;
+  margin-bottom: 24px;
+  font-weight: 800;
+}
+
+.text-p {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+}
+
+.subTitle {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.card-text {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+}
+
+.nav-item {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  align-items: baseline;
+  text-decoration: none;
+}
+
+.aboutMe {
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutMe h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.aboutMe p {
+  margin-bottom: 24px;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 40%;
+  text-align: center;
+}
+
+.card-group {
+  text-align: center;
+}
+
+.modalImg {
+  width: 450px;
+}

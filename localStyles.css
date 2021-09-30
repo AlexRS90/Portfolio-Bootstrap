@@ -1,0 +1,33 @@
+.d-flex {
+    display: flexbox;
+    flex-direction: column;
+
+}
+
+.local-header {
+
+align-content: center;
+}
+.nav-local ul {
+
+align-content: center;
+margin-left: 39%;
+
+}
+.header-title {
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+    
+
+}
+.title {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: teal;
+    margin-bottom: 24px;
+}
+ .text-p {
+
+border: 10px solid black;
+}

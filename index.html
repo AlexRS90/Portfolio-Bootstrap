@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio 2.0</title>
+    <link rel="stylesheet" href="localStyles.css">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,19 +15,19 @@
   </head>
   <body>
     <section class="header">
-      <nav class="navbar navbar-expand-lg navbar-light bg-teal localStyle">
+      <nav class="navbar navbar-expand-lg navbar-light bg-teal nav-local mb-5">
         <div class="container-fluid">
           <!-- <a class="navbar-brand" href="#">Navbar</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button> -->
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+          <div class="collapse navbar-collapse d-flex local-header" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex ">
+              <li class="nav-item ">
+                <a class="nav-link active text-success" aria-current="page" href="#">Portfolio</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+              <li class="nav-item ">
+                <a class="nav-link font-color text-success" href="#">About</a>
               </li>
               <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -39,9 +40,9 @@
                       <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                   </li> -->
-              <li class="nav-item">
+              <li class="nav-item ">
                 <a
-                  class="nav-link disabled"
+                  class="nav-link disabled text-success"
                   href="#"
                   tabindex="-1"
                   aria-disabled="true">Contact</a>
@@ -55,12 +56,14 @@
         </div>
       </nav>
     </section>
-    <h1>Anibal & Alejandro Portfolio</h1>
-    <p>
+    <section class="header-title d-flex">
+    <h1 class="title">Anibal & Alejandro <br> Portfolio</h1>
+    <p class="text-p">
       We can help you build a product , feature or website Look through some of
       my work and experience! If you like what you see and have a project you
-      need coded, don’t hestiate to contact us.
+      need coded, don’t hesitate to contact us.
     </p>
+  </section>
     <section>
       <h2>Our Recent Projects</h2>
       <div class="container">
@@ -313,8 +316,34 @@
             </div>
 
         </div>
+        
 
     </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>
+              We're always interested in hearing about new projects, so if you'd like to chat please get in touch.
+            </p>
+          </div>
+          <div class="col">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button class="btn btn-success">Get in Touch</button>
+          </div>
+        </div>
+
+          
+    </div>
+
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
